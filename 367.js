@@ -12,4 +12,30 @@ var isPerfectSquare = function(num) {
     return k
 };
 
-console.log(isPerfectSquare(1))
+
+// var isPerfectSquare = function(num) {
+//     if (num === 1) {
+//       return true;
+//     }
+  
+//     let l = 1;
+//     let r = Math.floor(num / 2);
+  
+//     while (l <= r) {
+//       const m = Math.floor((l + r) / 2);
+  
+//       if (m * m === num) {
+//         return true;
+//       }
+  
+//       if (m * m > num) {
+//         r = m - 1;
+//       } else {
+//         l = m + 1;
+//       }
+//     }
+  
+//     return false;
+//   };
+
+  console.log(isPerfectSquare(4))
