@@ -10,4 +10,15 @@ var decompressRLElist = function(nums) {
     }
     return result
 };
+
+// var decompressRLElist = function(nums) {
+//     let result = []
+//     for(let i=0;i<nums.length/2;i++){
+//         for(let j=1;j<=nums[2*i];j++){
+//             result.push(nums[2*i+1])
+//         }
+//     }
+//     return result
+// };
+
 console.log(decompressRLElist([55,11,70,26,62,64]))
